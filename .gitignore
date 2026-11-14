@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+frontend/dist/
+frontend/node_modules/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+data/
+data/raw/*.h5ad
+data/cache/*.npy
+data/indexes/*.bin
+
+# Database
+instance/
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# Others
+codegen.py
+_codegen/
+.pytest_cache/
+logs/
+reports/ai-eval/raw/
